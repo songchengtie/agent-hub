@@ -1,6 +1,6 @@
 # Agent Hub
 
-Local desktop prototype for chatting with multiple local agents from one UI.
+Local desktop prototype for chatting with multiple local agents from one UI.Status: early prototype. APIs, adapter configs, and memory format may change.
 
 The UI is group-chat styled: each agent has an avatar, every reply is shown as a chat bubble, and each member can be assigned a per-turn hierarchy level.
 
