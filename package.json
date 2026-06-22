@@ -1,0 +1,17 @@
+{
+  "name": "agent-hub",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local desktop hub for routing chats across Codex and Hermes agents.",
+  "main": "src/main.cjs",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server/index.cjs",
+    "desktop": "electron .",
+    "check": "node scripts/check.cjs",
+    "scan": "node scripts/scan-secrets.cjs"
+  },
+  "devDependencies": {
+    "electron": "^42.4.1"
+  }
+}
