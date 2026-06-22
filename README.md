@@ -88,18 +88,7 @@ To explicitly allow CLI fallback:
 $env:AGENT_HUB_ENABLE_CODEX_CLI = "1"
 ```
 
-Hermes uses:
 
-```powershell
-hermes --oneshot "<prompt>" --ignore-rules --provider huoshan --model deepseek-v4-flash-260425
-```
-
-Agent Hub defaults Hermes to `huoshan/deepseek-v4-flash-260425` because the global Hermes default `oneapi-relay/deepseek-ai/deepseek-v4-flash` has returned intermittent 502s from the relay. Override per Agent Hub process with:
-
-```powershell
-$env:AGENT_HUB_HERMES_PROVIDER = "chinamobile"
-$env:AGENT_HUB_HERMES_MODEL = "minimax-m25"
-```
 
 opencode uses Docker:
 
